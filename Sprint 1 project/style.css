@@ -1,0 +1,20 @@
+body{
+     width: 99%;
+    
+}
+.container{
+    background-color: lightblue;
+    
+    
+  }
+  .header{
+    text-align: center;
+  }
+  .main{
+    max-width: 660px; 
+     margin:0 auto;
+  }
+  li span{
+    font-weight: bold;
+  }
+  

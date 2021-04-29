@@ -1,0 +1,20 @@
+.container{
+    color:red;
+}
+#main{
+    color: red;
+    border: 5px solid green;
+    width: 70%;
+}
+.text{
+    padding:50px;
+    margin: 20px;
+    width:100%;
+    border: 15px solid blue;
+    color: red;
+
+}
+.dummy{
+    width: 100%;
+    border: 10px solid green;
+}
