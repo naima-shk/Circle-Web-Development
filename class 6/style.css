@@ -1,27 +1,27 @@
-div.static {
+.static {
     position: static;
     border: 3px solid #73AD21;
   }
-  div.relative {
+  .relative {
     position: relative;
     left: 30px;
     border: 3px solid #7334d6;
   }
-  div.absolute {
+  .absolute {
     position: absolute;
     top: 80px;
     right: 0;
     width: 300px;
     border: 3px solid #f675a4;
   }
-  div.fixed {
+  .fixed {
     position: fixed;
     bottom: 0;
     right: 0;
     width: 300px;
     border: 3px solid #73AD21;
   }
-  div.sticky {
+  .sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
