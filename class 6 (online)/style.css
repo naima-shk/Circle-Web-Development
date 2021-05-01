@@ -1,15 +1,16 @@
 div.static {
     position: static;
     border: 3px solid #73AD21;
-    text-shadow: 2px 2px;
+    text-shadow: 2px 2px 5px red;
   }
   div.relative {
     position: relative;
-    text-shadow: 2px 2px;
+    text-shadow: 2px 2px 5px red;
     border: 3px solid #7334d6;
   }
   div.absolute {
     position: absolute;
+    text-shadow:  2px 2px 5px red;
     top: 80px;
     right: 0;
     width: 300px;
@@ -17,13 +18,15 @@ div.static {
   }
   div.fixed {
     position: fixed;
+    text-shadow: 2px 2px 5px red;
     bottom: 0;
     right: 0;
     width: 300px;
     border: 3px solid #73AD21;
   }
   div.sticky {
-     position: sticky;
+    position: sticky;
+    text-shadow: 2px 2px 5px red;
     top:10;
     position: -webkit-sticky;
     padding: 5px;
