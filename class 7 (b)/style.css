@@ -8,6 +8,10 @@
    
 }
 
-.third-div  + p {
+.third-div  +  p {
     background-color: green;
 }
+
+.forth-div  ~  p {
+    background-color: yellow;
+  }
