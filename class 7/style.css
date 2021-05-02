@@ -1,3 +1,13 @@
-div p {
+.first-div p{
+    background-color: yellowgreen;
+   
+}
+
+.second-div  > p  {
     background-color: yellow;
-  }
+   
+}
+
+.third-div  + p {
+    background-color: green;
+}
