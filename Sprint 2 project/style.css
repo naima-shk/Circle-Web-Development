@@ -65,3 +65,7 @@ nav ul li a {
     top: 42%;
     transform: translate(-13%,-42%);
 }
+.text-container button{
+    width: 130px;
+    height: 42px;
+}
