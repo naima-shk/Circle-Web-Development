@@ -90,3 +90,11 @@ nav ul li a {
 button:active{
     transform:scale(1.1);
 }
+.mypic{
+    height: 300px;
+    position: absolute;
+    bottom: 0px;
+    left: 70%;
+    transform: translateX(-70%);
+
+}
