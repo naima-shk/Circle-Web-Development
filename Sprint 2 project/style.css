@@ -59,6 +59,7 @@ nav ul li a {
 .text-container p{
     line-height: 0px;
     margin: 45px 0px 25px;
+    
 
 }
 .text-container{
@@ -88,13 +89,25 @@ nav ul li a {
     border: none;
 }
 button:active{
-    transform:scale(1.1);
+    transform:scale(1.2);
 }
 .mypic{
-    height: 300px;
+    height: 250px;
     position: absolute;
-    bottom: 0px;
+    bottom: 20px;
+    margin-left: 150px;
+    padding-bottom: 380px;
     left: 70%;
     transform: translateX(-70%);
 
+}
+.about-container{
+    width: 80%;
+    height: 330px;
+    background-color: solid burlywood;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0, 0.2);
+    display: flex;
+    margin: -7% auto 20px auto;
+    position: relative;
 }
