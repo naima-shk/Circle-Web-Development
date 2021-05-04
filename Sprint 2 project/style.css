@@ -25,12 +25,12 @@ nav{
 }
 nav ul{
     display: flex;
-    color:papayawhip;
+
 }
 nav ul li a {
     margin:40px;
     font-family: myriad pro ;
-    color: #505050;
+    color: whitesmoke;
     font-size: 25px;
     font-weight: 100;
 }
@@ -130,12 +130,12 @@ button:active{
     font-family: myriad pro;
     font-size: 18px;
 }
-.services{
+.projects{
     height: 600px;
     background-color: papayawhip;
     padding: 2% 10% 0px 10%;
 }
-.services-text p:nth-child(1){
+.projects-text p:nth-child(1){
     font-family: calibri;
     font-weight: bold;
     color: #3e3d3d;
@@ -143,7 +143,7 @@ button:active{
     line-height: 0px;
 
 }
-.services-text p:nth-child(2){
+.projects-text p:nth-child(2){
     font-family: calibri;
     font-weight: bold;
     color: #3e3d3d;
@@ -151,11 +151,11 @@ button:active{
     line-height: 5px;
 
 }
-.services-text p:nth-child(3){
+.projects-text p:nth-child(3){
     font-family: calibri;
     color: #7e7d7e;
 }
-.services-text{
+.projects-text{
     width: 500px;
     margin: 50px 0px;
 }
