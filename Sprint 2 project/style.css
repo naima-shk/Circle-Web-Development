@@ -1,5 +1,5 @@
 body{
-    background-color: #fbf9ff;
+    background-color: #ffefd5;
     margin:0px;
     padding: 0px;
 }
@@ -18,13 +18,14 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90px;
-    background-color: #ffffff;
+    height: 100px;
+    background-color: #190b1c;
     box-shadow: 2px 2px 12px rgba(0,0,0, 0.2);
     padding: 0px 5%;
 }
 nav ul{
     display: flex;
+    color:papayawhip;
 }
 nav ul li a {
     margin:40px;
@@ -35,7 +36,8 @@ nav ul li a {
 }
 .ul{
  font-weight: bold;
- color: #2d2a2a;
+ 
+ 
 }
 .text-container p:nth-child(1){
     font-family: calibri;
@@ -95,7 +97,6 @@ button:active{
 .about-container{
     width: 80%;
     height: 330px;
-    background-color: solid burlywood;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0, 0.2);
     display: flex;
@@ -131,7 +132,7 @@ button:active{
 }
 .services{
     height: 600px;
-    background-color: #ffffff;
+    background-color: papayawhip;
     padding: 2% 10% 0px 10%;
 }
 .services-text p:nth-child(1){
