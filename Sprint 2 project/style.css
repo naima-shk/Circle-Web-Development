@@ -258,8 +258,10 @@ footer p :nth-child(2){
     box-shadow: 2px 2px 12px rgba(0,0,0, 0.2);
     transition: all ease o.5s;
 }
-.social-icons a:hover i{
-    color: #FFFFFF;
+.social-icons a:hover i,
+.a-social-bar a:hover i
+{
+    color: lightblue;
     transition: all ease 0.5s;
 }
 .a-social-bar{
@@ -279,4 +281,8 @@ footer p :nth-child(2){
     background-color: #FFFFFF;
     border: 1px solid #cbcbcb;
     box-shadow: 2px 2px 12px rgba(0,0,0, 0.2);
+}
+.a-social-bar i{
+    color: #2b2b2b;
+    font-size: 20px;
 }
