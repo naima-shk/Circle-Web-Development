@@ -170,3 +170,83 @@ button:active{
     display: flex;
     justify-content: space-between;
 }
+.box-1{
+    background-image: url('./images/tribute.PNG');
+}
+.box-2{
+    background-image: url('./images/tracking-app.PNG');
+}
+.box-3{
+    background-image: url('./images/expense.PNG');
+}
+.contact{
+    width: 100%;
+    height: 280px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact p{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: myriad pro regular;
+    font-weight: bold;
+    border-bottom: 2px solid #FFFFFF;
+}
+.contact button{
+    width:15%;
+    height: 40px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: none;
+}
+footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+footer p{
+    font-family: calibri;
+}
+footer p :nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: #191919;
+    line-height: 10px;
+}
+footer p :nth-child(2){
+    font-size: 10px;
+    color: #7e7d7d;
+    width: 600px;
+    text-align: center;
+}
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+.social-icons{
+    display: flex;
+    color: black;
+}
+.copyright{
+    color: #565555;
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
