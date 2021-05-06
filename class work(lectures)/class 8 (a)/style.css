@@ -19,8 +19,6 @@ input[type=text], select {
     border-radius: 4px;
     cursor: pointer;
   }
-  
-  
   div {
     border-radius: 10px;
     border-color: black;
