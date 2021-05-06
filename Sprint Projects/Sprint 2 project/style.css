@@ -20,19 +20,19 @@ nav{
     align-items: center;
     height: 100px;
     background-color: #190b1c;
-    box-shadow: 2px 2px 12px rgba(0,0,0, 0.2);
-    padding: 0px 5%;
+    box-shadow: 2px 2px 14px rgba(0,0,0, 0.2);
+    padding: 0px 6%;
 }
 nav ul{
     display: flex;
 
 }
 nav ul li a {
-    margin:40px;
-    font-family: myriad pro ;
+    margin:110px;
+    font-family: New Tegomin;
     color: whitesmoke;
-    font-size: 25px;
-    font-weight: 100;
+    font-size: 30px;
+    font-weight: 90;
 }
 .ul{
  font-weight: bold;
@@ -40,21 +40,21 @@ nav ul li a {
  
 }
 .text-container p:nth-child(1){
-    font-family: calibri;
+    font-family: New Tegomin;
     font-weight: bold;
     color: #6d6d6d;
     font-size: 22px;
 
 }
 .text-container p:nth-child(2){
-    font-family: calibri;
+    font-family: New Tegomin;
     font-weight: bold;
     letter-spacing: 1px;
     color: #1a1a1a;
     font-size: 60px;
 }
 .text-container p:nth-child(3){
-    font-family: myriad pro regular;
+    font-family: New Tegomin;
     color: #403e3e;
     font-size: 30px;
 }
@@ -74,7 +74,7 @@ nav ul li a {
     width: 130px;
     height: 42px;
     border-radius: 10px;
-    font-family: calibri;
+    font-family:   New Tegomin;
     font-weight: bold;
     font-size: 14px;
     outline: none;
@@ -114,20 +114,20 @@ button:active{
 .about-text p:nth-child(1){
     color: #403e3e;
     font-size: 18px;
-    font-family: myriad pro;
+    font-family: New Tegomin;
     font-weight: bold;
     line-height: 5px;
 }
 .about-text p:nth-child(2){
     color: #403e3e;
     font-size: 18px;
-    font-family: myriad pro;
+    font-family: New Tegomin;
     line-height: 5px;
 }
 .about-text p:nth-child(3),
 .about-text p:nth-child(4){
     color:  #403e3e;
-    font-family: myriad pro;
+    font-family: New Tegomin;
     font-size: 18px;
 }
 .projects{
@@ -136,7 +136,7 @@ button:active{
     padding: 2% 10% 0px 10%;
 }
 .projects-text p:nth-child(1){
-    font-family: calibri;
+    font-family: New Tegomin;
     font-weight: bold;
     color: #3e3d3d;
     font-size: 30px;
@@ -144,7 +144,7 @@ button:active{
 
 }
 .projects-text p:nth-child(2){
-    font-family: calibri;
+    font-family: New Tegomin;
     font-weight: bold;
     color: #3e3d3d;
     font-size: 15px;
@@ -152,7 +152,7 @@ button:active{
 
 }
 .projects-text p:nth-child(3){
-    font-family: calibri;
+    font-family: New Tegomin;
     color: #7e7d7e;
 }
 .projects-text{
@@ -194,13 +194,14 @@ button:active{
 .contact p{
     color: #FFFFFF;
     font-size: 30px;
-    font-family: myriad pro regular;
+    font-family: New Tegomin;
     font-weight: bold;
     border-bottom: 2px solid #FFFFFF;
 }
 .contact button{
     width:15%;
     height: 40px;
+    font-family: New Tegomin;
     background-color: #FFFFFF;
     outline: none;
     border: none;
@@ -214,7 +215,7 @@ footer{
     position: relative;
 }
 footer p{
-    font-family: calibri;
+    font-family: New Tegomin;
 }
 footer p :nth-child(1){
     font-size: 30px;

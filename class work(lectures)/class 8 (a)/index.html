@@ -8,14 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <form >
-          <label for="Uname">User name</label>
-          <input type="text" id="Uname" name="username" placeholder="Your username">
-          <label for="password">password</label>
-          <input type="text" id="password" name="password" placeholder="Your password">
-          <input type="submit" value="Login">
-        </form>
+    <div class="mine">
+      <h2 class="text">Login Form</h2>
+
+      <form class="main" >
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required> <br>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>  
+          <button type="submit">Login</button> <br>
+        </div>
+      </form>
       </div>
 </body>
 </html>
