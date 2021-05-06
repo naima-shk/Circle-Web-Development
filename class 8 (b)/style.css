@@ -1,0 +1,19 @@
+.main{
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    float: left;
+  }
+  
+  main:hover {
+    background-color: blue;
+  }
+
+  .mine{
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    float: right;
+  }
