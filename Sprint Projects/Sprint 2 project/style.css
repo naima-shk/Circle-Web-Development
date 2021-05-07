@@ -25,7 +25,6 @@ nav{
 }
 nav ul{
     display: flex;
-
 }
 nav ul li a {
     margin:110px;
@@ -36,9 +35,7 @@ nav ul li a {
 }
 .ul{
  font-weight: bold;
- 
- 
-}
+ }
 .text-container p:nth-child(1){
     font-family: New Tegomin;
     font-weight: bold;
