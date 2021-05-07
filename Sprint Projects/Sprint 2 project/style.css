@@ -109,7 +109,7 @@ button:active{
     height:200px;
 }
 .about-text{
-    width: 550px;
+    width: 590px;
 }
 .about-text p:nth-child(1){
     color: #403e3e;
@@ -130,6 +130,7 @@ button:active{
     font-family: New Tegomin;
     font-size: 18px;
 }
+
 .projects{
     height: 600px;
     background-color: papayawhip;
