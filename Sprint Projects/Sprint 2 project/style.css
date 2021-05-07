@@ -61,8 +61,6 @@ nav ul li a {
 .text-container p{
     line-height: 0px;
     margin: 45px 0px 25px;
-    
-
 }
 .text-container{
     position: absolute;
@@ -83,7 +81,6 @@ nav ul li a {
 .hire-btn{
     border:2px solid #373636;
     color:#373636;
-
 }
 .down-cv{
     background-color: #0b0b0b ;
@@ -93,7 +90,6 @@ nav ul li a {
 button:active{
     transform:scale(1.2);
 }
-
 .about-container{
     width: 80%;
     height: 330px;
@@ -130,7 +126,6 @@ button:active{
     font-family: New Tegomin;
     font-size: 18px;
 }
-
 .projects{
     height: 600px;
     background-color: papayawhip;
@@ -142,7 +137,6 @@ button:active{
     color: #3e3d3d;
     font-size: 30px;
     line-height: 0px;
-
 }
 .projects-text p:nth-child(2){
     font-family: New Tegomin;
@@ -150,7 +144,6 @@ button:active{
     color: #3e3d3d;
     font-size: 15px;
     line-height: 5px;
-
 }
 .projects-text p:nth-child(3){
     font-family: New Tegomin;
@@ -190,7 +183,6 @@ button:active{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 .contact p{
     color: #FFFFFF;
