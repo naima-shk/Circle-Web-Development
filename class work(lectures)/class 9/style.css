@@ -2,8 +2,11 @@
     background-color:grey;
     padding: 10px;
     display: flex;
-    flex: nowrap;
-    flex-direction: row;
+    flex: wrap;
+    flex-direction: row; 
+    flex-flow: row wrap;
+    justify-content: center;
+
 }
 .flex-container > div{
     width: 400px;
