@@ -1,8 +1,7 @@
 .main{
     background-color: green;
     color: white;
-    padding: 25px;
-    text-align: center;
+    
     float: left;
   }
   
@@ -11,9 +10,10 @@
   }
 
   .mine{
-    background-color: green;
-    color: white;
-    padding: 25px;
-    text-align: center;
+    background-color: red ;
     float: right;
   }
+.container{
+  background-color: blue ;
+
+}

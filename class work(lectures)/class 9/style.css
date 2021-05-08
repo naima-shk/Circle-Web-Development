@@ -1,9 +1,6 @@
-.container{
-    background-color: grey;
+.flex-container{
+    background-color:grey;
     padding: 10px;
     display: flex;
     flex-direction: column;
-}
-.container > div{
-    
 }
