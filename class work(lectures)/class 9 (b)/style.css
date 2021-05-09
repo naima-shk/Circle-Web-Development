@@ -2,7 +2,7 @@
     background-color:grey;
     padding: 10px;
     display: grid;
-    grid-template-columns:   10px auto auto  auto  ;
+    grid-template-columns:   10px auto 10px  auto  ;
     grid-column-gap:0px;
     grid-row-gap:10px;
     grid-template-rows: 100px  100px  200px 200px ;
