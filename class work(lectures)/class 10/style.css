@@ -1,5 +1,5 @@
 .grid-container{
-    background-color:grey;
+    background-color: gray;
     grid-gap: 10px;
     display: grid;
     padding: 10px;
@@ -25,7 +25,7 @@
 /* for tablet */
 @media screen and (min-width: 768px)  and (max-width:1023){
     .grid-container {
-      background-color: violet;
+      background-color: orangered;
     }
   }
   /* for desktop */
