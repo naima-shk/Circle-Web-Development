@@ -2,9 +2,10 @@
     background-color:grey;
     padding: 10px;
     display: grid;
-    grid-template-columns: auto auto auto ;
-    grid-column-gap:10px;
+    grid-template-columns:   10px auto auto  auto  ;
+    grid-column-gap:0px;
     grid-row-gap:10px;
+    grid-template-rows: 100px  100px  200px 200px ;
 }
 .grid-container > div{
     width: 300px;
