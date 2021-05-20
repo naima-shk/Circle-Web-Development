@@ -1,5 +1,5 @@
 body{
-    background-color: papayawhip;
+    background-color: seagreen;
     margin:0px;
     padding: 0px;
 }
@@ -21,9 +21,11 @@ nav{
     background-color: #190b1c;
     box-shadow: 2px 2px 14px rgba(0,0,0, 0.2);
     padding: 0px 6%;
+   
 }
 nav ul{
     display: flex;
+    margin-right: 10px;
 }
 nav ul li a {
     margin:110px;
@@ -90,12 +92,13 @@ button:active{
     width: 80%;
     height: 330px;
     border-radius: 20px;
-    box-shadow: 2px 2px 12px rgba(0,0,0, 0.2);
+    box-shadow: 2px 2px 12px rgba(100,100,100, 100);
     display: flex;
     margin: -7% auto 20px auto;
     position: relative;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 .about-container img{
     height:190px;
@@ -124,7 +127,7 @@ button:active{
     font-size: 18px;
 }
 .projects{
-    height: 600px;
+    height: 500px;
     background-color: papayawhip;
     padding: 2% 10% 0px 10%;
 }
@@ -133,26 +136,18 @@ button:active{
     font-weight: bold;
     color: #3e3d3d;
     font-size: 30px;
-    line-height: 0px;
+    line-height: 1px;
+   
 }
-.projects-text p:nth-child(2){
-    font-family: New Tegomin;
-    font-weight: bold;
-    color: #3e3d3d;
-    font-size: 15px;
-    line-height: 5px;
-}
-.projects-text p:nth-child(3){
-    font-family: New Tegomin;
-    color: #7e7d7e;
-}
+
+
 .projects-text{
     width: 500px;
-    margin: 50px 0px;
+    margin: 50px 10px;
 }
 .box-1, .box-2, .box-3{
     width: 300px;
-    height: 320px;
+    height: 280px;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 2px 2px 12px rgba(0,0,0, 0.3);
@@ -163,6 +158,7 @@ button:active{
 }
 .box-1{
     background-image: url('./images/tribute.PNG');
+  
 }
 .box-2{
     background-image: url('./images/tracking-app.PNG');
@@ -170,9 +166,27 @@ button:active{
 .box-3{
     background-image: url('./images/expense.PNG');
 }
+#p-1{
+    margin-right: 5px;
+    padding-right: 20px;
+    margin-top: 300px;
+    padding-left: 70px;
+}
+#p-2{
+    margin-right: 5px;
+    padding-right: 20px;
+    margin-top: 300px;
+    padding-left: 70px;
+}
+#p-3{
+    margin-right: 5px;
+    padding-right: 20px;
+    margin-top: 300px;
+    padding-left: 70px;
+}
 .contact{
     width: 100%;
-    height: 310px;
+    height: 450px;
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
@@ -185,33 +199,43 @@ button:active{
     color: #FFFFFF;
     font-size: 25px;
     font-family: New Tegomin;
-    font-weight: bold;
-    border-bottom: 2px solid #FFFFFF;
+    margin-left: 490px;
+    float: left;
+    margin: 5px 5px;
 }
 .contact mb-3 mb-4 mb-5{
     margin: 0px;
 }
-.contact img{
-    height: 50px;
-    padding-right: 100px;
-    margin-right: 300px;
-   
-}
+
 #exampleFormControlInput1{
-    margin-bottom: 10px;
-    width: 100%;
+    margin-bottom: 0px;
+    width: 60%;
+    margin-left: 100px;
+    padding-right: 120px;
+    float: left;
+    margin-bottom: 9px;
 }
 #exampleFormControlTextarea1{
-    margin-right: 50px;
+    margin-right: 150px;
+    float: left;
+    margin-left: 10px;
 }
 
-#id{
-    color: gray;
+#btn{
+    color:gray;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    margin: 10px 0px;
+    margin-left: 10px;
+}
+.form-label{
+    color: white;
 }
 
 footer{
     height: 300px;
     display: flex;
+    background-color: papayawhip;
     flex-direction: column;
     justify-content: center;
     align-items: center;
