@@ -28,7 +28,10 @@ nav ul{
 }
 .menu{
     margin-left: 450px;
+    color: gray;
+    margin: auto;
 }
+
 .text-container p:nth-child(1){
     font-family: New Tegomin;
     font-weight: bold;
