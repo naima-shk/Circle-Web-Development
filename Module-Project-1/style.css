@@ -1,5 +1,4 @@
 body{
-    
     margin:0px;
     padding: 0px;
 }
@@ -13,16 +12,16 @@ section{
     position: relative;
     background-repeat: no-repeat;
     background-color: powderblue;
+    text-align: justify;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 150px;
+    height: 170px;
     background-color: #190b1c;
     box-shadow: 2px 2px 14px rgba(0,0,0, 0.2);
     padding: 0px 6%;
-   
 }
 nav ul{
     display: block;
@@ -34,14 +33,11 @@ nav ul{
 .btns:active{
     transform:scale(1.2);
 }
-
-
 .text-container p:nth-child(1){
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #6d6d6d;
     font-size: 22px;
-
 }
 .text-container p:nth-child(2){
     font-family: 'Roboto', sans-serif;
@@ -69,9 +65,7 @@ nav ul{
     left: 13%;
     top: 42%;
     transform: translate(-13%,-42%);
-
 }
-
 .about-container{
     width: 80%;
     height: 330px;
@@ -83,7 +77,6 @@ nav ul{
     justify-content: space-evenly;
     align-items: center;
     background-color:  papayawhip;
-    
 }
 .about-container img{
     height:190px;
@@ -188,7 +181,6 @@ nav ul{
 .contact mb-3 mb-4 mb-5{
     margin: 0px;
 }
-
 #exampleFormControlInput1{
     margin-bottom: 0px;
     width: 60%;
@@ -202,11 +194,9 @@ nav ul{
     float: left;
     margin-left: 10px;
 }
-
 .form-label{
     color: white;
 }
-
 footer{
     height: 300px;
     display: flex;
