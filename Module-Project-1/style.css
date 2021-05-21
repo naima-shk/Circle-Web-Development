@@ -17,26 +17,18 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 150px;
     background-color: #190b1c;
     box-shadow: 2px 2px 14px rgba(0,0,0, 0.2);
     padding: 0px 6%;
    
 }
 nav ul{
-    display: flex;
-    margin-right: 10px;
+    display: block;
 }
-nav ul li a {
-    margin:110px;
-    font-family: New Tegomin;
-    color: whitesmoke;
-    font-size: 30px;
-    font-weight: 90;
+.menu{
+    margin-left: 450px;
 }
-.ul{
- font-weight: bold;
- }
 .text-container p:nth-child(1){
     font-family: New Tegomin;
     font-weight: bold;
