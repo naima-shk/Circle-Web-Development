@@ -26,11 +26,11 @@ nav{
 nav ul{
     display: block;
 }
-.menu{
-    margin-left: 450px;
-    color: gray;
-    margin: auto;
+.btns{
+    margin-left: 1000px;
+    background-color: cadetblue;
 }
+
 
 .text-container p:nth-child(1){
     font-family: New Tegomin;
