@@ -1,0 +1,15 @@
+.btn-primary{
+    color: aqua;
+}
+.btn{
+    background-color: black;
+}
+
+.mb-3{
+    padding: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.form-label{
+    color: gray;
+}
