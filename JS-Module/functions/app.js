@@ -4,9 +4,6 @@ function myArea(base,height){
 }
 //myArea(3,6);
 
-
-
-
 /* 
 Write a function that takes the base and height of a triangle and return its area. Don’t forget to return the result.The area of a triangle is: (base * height) / 2
 
