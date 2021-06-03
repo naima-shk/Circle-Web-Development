@@ -1,4 +1,4 @@
-switch (new Date().getDay()) {
+/*switch (new Date().getDay()) {
     case 0:
       day = "Sunday";
       break;
@@ -20,4 +20,21 @@ switch (new Date().getDay()) {
     case 6:
       day = "Saturday";
   }
-  console.log(day);
+  console.log(day);*/
+
+  function myFunction() {
+    let color=prompt('enter the color!');
+  }
+  
+  switch (color){
+      case 0:
+          alert("this is a red box!");
+          break;
+          case 1:
+              alert("this is a blue box!");
+              break;
+              default:
+                  alert('I dont know color');
+
+  }
+  
