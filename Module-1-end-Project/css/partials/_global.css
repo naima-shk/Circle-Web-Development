@@ -13,18 +13,16 @@
     margin-left: 59px;
 }
 .button.primary-button{
-    background-color: teal;
+    background-color: lightsteelblue;
     text-transform: capitalize;
 }
-.button.primary-button:hover{
-    background: lightsteelblue;
-}
+
 .social-icons a {
     display: inline;
     margin-left: 56px;
     color: black; 
 }
-
-
-
-
+#myButton{
+    text-transform: capitalize;
+    color: black;
+}

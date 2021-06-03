@@ -33,36 +33,36 @@
    --webkit-text-fill-color:transparent;
    background-clip: text;
 }
-.site-main .site-banner .site-title h3{
+.site-main #site-banner .site-title h3{
     padding-top: 16%;
     font-weight: 500;
 
 }
-.site-main .site-banner .site-title h1{
+.site-main #site-banner .site-title h1{
     font: normal bold 49px/60px var(--roboto);
     font-size: 3rem;
     letter-spacing: 2px;
    
 }
-.site-main .site-banner .site-title p{
+.site-main #site-banner .site-title p{
     font-size: 1.5rem;
     
 }
-.site-main .site-banner .girl >img{
+.site-main #site-banner .girl >img{
     padding: 7rem 0;
     width: 90rem;
 }
 /*  start about area */
-.site-main .about-area{
+.site-main #about-area{
     padding: 8rem 5rem;
 }
-.site-main .about-area .about-title h2>span{
+.site-main #about-area .about-title h2>span{
   display: inline;
   font: normal bold 49px/60px var(--roboto);
   letter-spacing: 13px;
 
 }
-.site-main .about-area .about-title .paragraph>p{
+.site-main #about-area .about-title .paragraph>p{
     padding: .4rem 0;
     font-size: 1rem;
 }
@@ -70,17 +70,17 @@
   /*end about area */
 
   /*  start project area */
- .site-main .work-area {
+ .site-main #work-area {
      padding: 3.4rem 2rem;
      letter-spacing: 2px;
  }
- .site-main .work-area  .project-title{
+ .site-main #work-area  .project-title{
     padding: 0.14rem;
 }
-.site-main .work-area  .project-title h2 {
+.site-main #work-area  .project-title h2 {
     font-size: 35px;
 }
-.site-main > .work-area .projects{
+.site-main > #work-area .projects{
     background: rgba(248, 252, 253, 0.973);
     padding: 2rem 0;
     width: 16rem;
@@ -90,12 +90,12 @@
 .para{
     font-weight: 500;
 }
-.site-main > .work-area .projects :hover{
+.site-main > #work-area .projects :hover{
     box-shadow: var(--box-shadow);
 
 }
 
-.site-main .contact-me-area .contact{
+.site-main #contact-me-area .contact{
     background-color:#854fee;
     padding: 1.5rem 0;
     margin:  1rem auto;
@@ -123,3 +123,11 @@
 .footer-area .social a:hover >i{
     color: var(--primary-color);
 }
+#myButton{
+    margin: .1rem auto;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+ }
