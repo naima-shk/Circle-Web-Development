@@ -1,0 +1,16 @@
+body {
+  background: paleturquoise;
+}
+
+.container {
+  text-align: center;
+  margin-top: 150px;
+}
+
+input {
+  font-size: 15px;
+  border-radius: 2px;
+}
+button {
+  font-size: 1em;
+}
