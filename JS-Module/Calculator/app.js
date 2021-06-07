@@ -27,3 +27,27 @@ minusOperation =function(){
     result.innerText = difference;
 }
 minusButton.addEventListener('click', minusOperation);
+
+//multiply button
+multiplyButton = document.getElementById('multiplyButton');
+multiplyOperation =function(){
+    num1= document.getElementById('num1');
+    num2= document.getElementById('num2');
+
+    product= parseInt(num1.value) * parseInt(num2.value);
+    result= document.getElementById('result');
+    result.innerText = product;
+}
+multiplyButton.addEventListener('click', multiplyOperation);
+
+//division button
+divButton = document.getElementById('divButton');
+divOperation =function(){
+    num1= document.getElementById('num1');
+    num2= document.getElementById('num2');
+
+    division= parseInt(num1.value) /  parseInt(num2.value);
+    result= document.getElementById('result');
+    result.innerText = division;
+}
+divButton.addEventListener('click', divOperation);
