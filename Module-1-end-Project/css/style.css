@@ -10,7 +10,7 @@
 .header_area .main-menu .navbar{
     padding: 1rem 20rem;
    background-color: lightsteelblue;
-   height: 120px;
+   height: 85px;
 }
 .header_area .main-menu .nav-item .nav-link{
     font: normal 500 15px/2px var(--roboto);
@@ -124,10 +124,34 @@
     color: var(--primary-color);
 }
 #myButton{
-    margin: .1rem auto;
+   margin: .1rem auto;
     font-weight: bold;
     color: black;
     text-decoration: none;
+    
+    justify-content: center;
+    opacity: 0.4rem;
+    
+ }
+ 
+#skill-button{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
     display: flex;
     justify-content: center;
- }
+    opacity: 0.4rem;
+}
+.button{
+    padding: 0.8rem 2.2rem;
+    font: normal 500 16px/20px var (--roboto);
+    position: relative;
+    border: 5px solid transparent;
+    border-radius: 7px;
+    margin-left: 79px;
+}
+#d-flexsocial-Icons a >span {
+    display: flex;
+    margin-left: 56px;
+    color: black; 
+}
