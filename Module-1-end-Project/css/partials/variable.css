@@ -12,6 +12,7 @@ html,body{
     --primary-color: #4458dc;
     --primary-color2: #854fee;
     --title-color: #141313;
+    --hover-color:white;
     --text-color: #777777;  
     --border-color: #201f1f17; 
     --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
