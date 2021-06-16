@@ -9,7 +9,7 @@
 }
 .header_area .main-menu .navbar{
     padding: 1rem 20rem;
-   background-color: lightsteelblue;
+   background-color: #e9eef6;
    height: 80px;
 }
 .header_area .main-menu .nav-item .nav-link{
@@ -153,4 +153,22 @@
     margin-left: 2rem;
     color: black; 
 }
+
+.social-links{
+    margin-left: 8.5rem;
+    height: 2vh;
+    width: 10vw;
+}
+
+#linked-in-account{
+    color:#0a66c2;
+    
+}
+#twitter-account{
+    color: #1da1f2;
+}
+#github-account{
+    color: black;
+}
+
 
