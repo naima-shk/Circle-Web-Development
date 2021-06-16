@@ -4,18 +4,28 @@
 .text-uppercase{
     text-transform: uppercase;
 }
-/*.button{
-    padding: 0.8rem 2.2rem;
+.button{
+    padding: 1rem 3rem;
     font: normal 500 16px/20px var (--roboto);
     position: relative;
     border: 5px solid transparent;
     border-radius: 7px;
-    margin-left: 59px;
-}*/
+    margin: 2rem auto;
+}
 .button.primary-button{
     background-color: #b0c4de;
     text-transform: capitalize;
 }
+
+
+/*.button{
+    padding: 1rem 3rem;
+    font: normal 500 16px/20px var (--roboto);
+    position: relative;
+    border: 5px solid transparent;
+    border-radius: 7px;
+    margin: 2rem auto;
+}*/
 
 /*.social-icons a {
     display: inline;
