@@ -148,9 +148,9 @@
     margin-left: 4rem ;
 }
 
-.d-flex .social-Icons  a i{
+.d-flex .social-Icons  span{
     display: flex;
-  
+    margin-left: 2rem;
     color: black; 
 }
 
