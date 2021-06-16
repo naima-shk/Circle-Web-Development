@@ -149,11 +149,12 @@
 }
 
 .social-links {
-  margin-left: 8rem;
+  margin-left: 7rem;
   font-size: 1.3rem;
-  white-space: inherit;
   padding: 0.2rem 0;
-  justify-content: center;
+  width: 7rem;
+  display: inline-flex;
+  justify-content: space-between;
 }
 
 #linked-in-account {
