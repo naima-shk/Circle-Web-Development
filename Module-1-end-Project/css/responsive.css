@@ -1,0 +1,29 @@
+/*  if the viewport is less than or equal to 340*/
+@media only screen and (max-width: 540px) {
+  .header_area .main-menu .navbar,
+  .header_area .main-menu .navbar .navbar-brand,
+  .site-main #site-banner .site-title,
+
+  .site-main #work-area,
+  .site-main #work-area .project-title {
+    padding: 2%;
+    margin: 0%;
+  }
+}
+.site-main #site-banner .site-title h3,
+
+.site-main #work-area .project-title h2 {
+  font-size: 41px;
+}
+.form-label {
+  width: 8rem;
+}
+.site-main > #work-area .projects{
+    margin-left:2rem ;
+}
+
+.site-main #about-area .about-title h2 > span,
+.d-flex .social-Icons span,
+.site-main #about-area .about-title .paragraph > p {
+    margin-left: .2rem;
+}
