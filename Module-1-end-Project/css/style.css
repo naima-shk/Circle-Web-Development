@@ -10,7 +10,7 @@
 .header_area .main-menu .navbar {
   padding: 1rem 20rem;
   background-color: #e9eef6;
-  height: 80px;
+  height: 75px;
 }
 .header_area .main-menu .nav-item .nav-link {
   font: normal 500 15px/2px var(--roboto);
