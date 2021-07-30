@@ -5,49 +5,49 @@
 */
 
 //add button
-addButton = document.getElementById('addButton');
-addOperation =function(){
-    num1= document.getElementById('num1');
-    num2= document.getElementById('num2');
+addButton = document.getElementById("addButton");
+addOperation = function () {
+  num1 = document.getElementById("num1");
+  num2 = document.getElementById("num2");
 
-    sum= parseInt(num1.value) + parseInt(num2.value);
-    result= document.getElementById('result');
-    result.innerText =sum;
-}
-addButton.addEventListener('click', addOperation);
+  sum = parseInt(num1.value) + parseInt(num2.value);
+  result = document.getElementById("result");
+  result.innerText = sum;
+};
+addButton.addEventListener("click", addOperation);
 
 //subtract  button
-minusButton = document.getElementById('minusButton');
-minusOperation =function(){
-    num1= document.getElementById('num1');
-    num2= document.getElementById('num2');
+minusButton = document.getElementById("minusButton");
+minusOperation = function () {
+  num1 = document.getElementById("num1");
+  num2 = document.getElementById("num2");
 
-    difference= parseInt(num1.value) - parseInt(num2.value);
-    result= document.getElementById('result');
-    result.innerText = difference;
-}
-minusButton.addEventListener('click', minusOperation);
+  difference = parseInt(num1.value) - parseInt(num2.value);
+  result = document.getElementById("result");
+  result.innerText = difference;
+};
+minusButton.addEventListener("click", minusOperation);
 
 //multiply button
-multiplyButton = document.getElementById('multiplyButton');
-multiplyOperation =function(){
-    num1= document.getElementById('num1');
-    num2= document.getElementById('num2');
+multiplyButton = document.getElementById("multiplyButton");
+multiplyOperation = function () {
+  num1 = document.getElementById("num1");
+  num2 = document.getElementById("num2");
 
-    product= parseInt(num1.value) * parseInt(num2.value);
-    result= document.getElementById('result');
-    result.innerText = product;
-}
-multiplyButton.addEventListener('click', multiplyOperation);
+  product = parseInt(num1.value) * parseInt(num2.value);
+  result = document.getElementById("result");
+  result.innerText = product;
+};
+multiplyButton.addEventListener("click", multiplyOperation);
 
 //division button
-divButton = document.getElementById('divButton');
-divOperation =function(){
-    num1= document.getElementById('num1');
-    num2= document.getElementById('num2');
+divButton = document.getElementById("divButton");
+divOperation = function () {
+  num1 = document.getElementById("num1");
+  num2 = document.getElementById("num2");
 
-    division= parseInt(num1.value) /  parseInt(num2.value);
-    result= document.getElementById('result');
-    result.innerText = division;
-}
-divButton.addEventListener('click', divOperation);
+  division = parseInt(num1.value) / parseInt(num2.value);
+  result = document.getElementById("result");
+  result.innerText = division;
+};
+divButton.addEventListener("click", divOperation);

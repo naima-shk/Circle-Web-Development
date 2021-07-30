@@ -1,0 +1,149 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    height: 100vh;
+    background-image: -o-linear-gradient(
+        315deg,
+        #8052EC,
+        #D161FF
+    );
+    background-image: linear-gradient(
+        135deg,
+        #8052EC,
+        #D161FF
+    );
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.container{
+    width: 50%;
+    min-width: 340px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 0;
+    border-radius: 8px;
+}
+#newtask{
+    position: relative;    
+    padding: 30px 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+#newtask input {
+    border-radius: 5px;
+    width: 70%;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    position: relative;
+}
+#newtask input:focus{
+    outline: none;
+    border-color:  #8052EC;
+}
+#newtask button {
+    position: relative;
+    float: right;
+    width: 23%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #8052EC;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#convert {
+   width: 100%;
+   position: relative;
+   margin-top: 40px;
+   background-color: #ffffff;
+   -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+           box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+   padding: 30px 20px;
+   border-radius: 10px;
+   text-align: center;
+}
+.task {
+    background: #ffffff;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 0px;
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 2px solid #d1d3d4;
+}
+.task span {
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.task button {
+    border: none;
+    background: #8052EC;
+    height: 100%;
+    width: 40px;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.completed{
+    text-decoration: line-through;
+}
+
+a{
+    display: block;
+    color: #282828;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    position: relative;
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-decoration:none;
+    text-align: center;
+     -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+           box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+@media screen and (min-width: 451px) {
+  
+}
+
+@media screen and (max-width: 450px) {
+  a{
+    font-size: 16px;
+     padding: 10px 8px;
+  }
+}

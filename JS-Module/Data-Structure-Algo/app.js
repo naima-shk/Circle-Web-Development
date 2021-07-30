@@ -44,3 +44,14 @@ const numbers = [1, 2, 3, 4, 5, 6];
 numbers.splice(3, 0, 'a', 'b');  
 console.log(numbers);
 */
+//algorithm implementation
+let games =['polo', 'cricket', 'football','tennis',undefined];
+//1. to increase the length/size of an array.
+//2- to identify the last index.
+//3- replace undefined with badminton
+games.length=games.length+1;
+for (let i=0; i<games.length; i++){
+    if (games[i]== undefined){
+        undefined = badminton;
+    }
+}
